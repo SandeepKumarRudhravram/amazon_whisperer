@@ -39,13 +39,62 @@ footer {
         <!-- Navigation menu -->
     </header>
 
-    <main>
-        <!-- Hero section with background image -->
-        <section>
-            <!-- Transportation types and rates -->
-        </section>
-        <!-- Form section -->
-    </main>
+   <main>
+    <!-- Hero section with background image -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Transport Company</h1>
+            <p>Reliable and efficient transportation solutions for your needs.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Transportation types and rates -->
+    <section class="transportation">
+        <h2>Our Transportation Services</h2>
+        <div class="transportation-grid">
+            <div class="transportation-item">
+                <img src="truck.jpg" alt="Truck">
+                <h3>Truck Delivery</h3>
+                <p>Fast and reliable truck delivery for your cargo needs.</p>
+                <p>Rates: $0.50 per mile</p>
+            </div>
+            <div class="transportation-item">
+                <img src="train.jpg" alt="Train">
+                <h3>Rail Transport</h3>
+                <p>Efficient and cost-effective rail transportation.</p>
+                <p>Rates: $0.30 per mile</p>
+            </div>
+            <div class="transportation-item">
+                <img src="ship.jpg" alt="Ship">
+                <h3>Maritime Shipping</h3>
+                <p>Reliable and secure maritime shipping solutions.</p>
+                <p>Rates: $0.20 per mile</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact form -->
+    <section class="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+</main>
+
 
     <footer>
         <!-- Copyright information -->
